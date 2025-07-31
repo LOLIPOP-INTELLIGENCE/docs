@@ -1,0 +1,216 @@
+---
+title: "Slack Automation"
+description: "Stay on top of team communications without the constant interruptions"
+icon: "slack"
+---
+
+## Overview
+
+Transform Slack from a distraction into a productivity tool. Kairos monitors channels, posts updates, and keeps your team informed — all without constant context switching.
+
+## Basic Slack Workflows
+
+### Daily Digest
+
+```text
+"Every evening at 5pm:
+- Summarize important messages from my Slack channels
+- Highlight any mentions of my name or @channel
+- List questions that need my response
+- Email me the summary"
+```
+
+### Smart Notifications
+
+```text
+"Monitor #engineering channel and:
+- Alert me for production issues
+- Summarize technical discussions
+- Ignore bot messages
+- DM me if anyone needs immediate help"
+```
+
+### Team Updates
+
+```text
+"Every Monday at 9am, post in #team-standup:
+- My completed tasks from last week (from Notion)
+- This week's priorities (from calendar)
+- Any blockers I need help with
+- Tag relevant teammates"
+```
+
+## Advanced Workflows
+
+### Cross-Tool Status Updates
+
+<Steps>
+  <Step title="Gather Information">
+    "Check my completed tasks in Asana, merged PRs in GitHub, and closed tickets in Jira"
+  </Step>
+  
+  <Step title="Create Summary">
+    "Write a concise update highlighting key accomplishments and progress"
+  </Step>
+  
+  <Step title="Share Appropriately">
+    "Post technical updates in #engineering, business updates in #leadership"
+  </Step>
+  
+  <Step title="Follow Up">
+    "If anyone responds with questions, draft clarifying responses"
+  </Step>
+</Steps>
+
+### Customer Support Triage
+
+```text
+"Monitor #customer-support channel:
+1. Identify new customer issues
+2. Check our knowledge base for solutions
+3. If solved before, share the solution
+4. If new, create a ticket and assign to the right person
+5. Update customer in thread with ticket number"
+```
+
+## Channel-Specific Automations
+
+<CardGroup cols={2}>
+  <Card title="Sales Channel" icon="dollar">
+    "Track deal mentions, update CRM, celebrate wins with team reactions"
+  </Card>
+  
+  <Card title="Support Channel" icon="headset">
+    "Prioritize by severity, assign to available agents, track response times"
+  </Card>
+  
+  <Card title="Marketing Channel" icon="megaphone">
+    "Collect campaign metrics, schedule social posts, track content calendar"
+  </Card>
+  
+  <Card title="Engineering Channel" icon="code">
+    "Monitor deploy status, track PR reviews, alert on build failures"
+  </Card>
+</CardGroup>
+
+## Integration Workflows
+
+### Slack + Email Bridge
+
+```text
+"When someone posts in #external-comms:
+- Draft an email with the message content
+- Send to the mentioned email addresses
+- Post confirmation in thread with email preview"
+```
+
+### Slack + Calendar Coordinator
+
+```text
+"When someone posts 'meeting' in #team channel:
+- Check everyone's calendars
+- Find common available slots
+- Post options in thread
+- Create calendar invite once confirmed"
+```
+
+### Slack + Task Management
+
+```text
+"Monitor all channels for messages containing 'TODO' or 'task':
+- Create tasks in Notion
+- Assign to mentioned person
+- Add due date if specified
+- Confirm in thread with task link"
+```
+
+## Smart Responses
+
+### FAQ Bot
+
+```text
+"In #general channel:
+- Watch for common questions
+- Check our FAQ document
+- Post helpful answers
+- If no answer exists, tag the expert and note it for FAQ update"
+```
+
+### Onboarding Assistant
+
+```text
+"When someone joins #new-employees:
+1. Send them a warm welcome DM
+2. Share onboarding checklist
+3. Introduce them in #general
+4. Schedule coffee chats with their team
+5. Check in after their first week"
+```
+
+## Pro Tips
+
+<AccordionGroup>
+  <Accordion title="Set context hours">
+    "Only monitor Slack during work hours (9am-6pm) unless it's an emergency keyword"
+  </Accordion>
+  
+  <Accordion title="Use threading">
+    "Always respond in threads to keep channels organized"
+  </Accordion>
+  
+  <Accordion title="Emoji reactions">
+    "Add 👀 when reading, ✅ when done, 🤔 when needs discussion"
+  </Accordion>
+  
+  <Accordion title="Smart filtering">
+    "Ignore messages from bots, focus on human conversations"
+  </Accordion>
+</AccordionGroup>
+
+## Templates
+
+### The Daily Coordinator
+
+```text
+"Every morning at 8:30am:
+1. Check all my Slack channels
+2. Identify tasks assigned to me
+3. Add them to my todo list
+4. Post my availability in #team
+5. Set my status based on calendar"
+```
+
+### The Project Reporter
+
+```text
+"Every Friday at 4pm:
+1. Gather project updates from team channels
+2. Compile into weekly report format
+3. Post in #leadership with metrics
+4. Create action items for next week
+5. Thank team members for their contributions"
+```
+
+### The Meeting Summarizer
+
+```text
+"After each meeting:
+1. If discussed in Slack, gather all messages
+2. Create summary with decisions and action items
+3. Post in channel with @mentions for owners
+4. Create follow-up tasks in project tool
+5. Schedule reminder for action items"
+```
+
+<Note>
+  **Power user tip**: Teach Kairos your team's communication style by showing examples of good updates. It'll learn to match your team's tone and format.
+</Note>
+
+<Card
+  title="Want to integrate Slack with more tools?"
+  icon="puzzle"
+  href="/integrations"
+  horizontal
+>
+  See all available integrations and how to connect them
+</Card>
